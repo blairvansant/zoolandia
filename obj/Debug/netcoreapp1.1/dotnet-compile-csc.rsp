@@ -7,8 +7,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"/Users/blairvansant/workspace/zoolandia/obj/Debug/netcoreapp1.1/dotnet-compile.assemblyinfo.cs"
--out:"/Users/blairvansant/workspace/zoolandia/bin/Debug/netcoreapp1.1/zoolandia.dll"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/obj/Debug/netcoreapp1.1/dotnet-compile.assemblyinfo.cs"
+-out:"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/bin/Debug/netcoreapp1.1/zoolandia.dll"
 -r:"/Users/blairvansant/.nuget/packages/Microsoft.CSharp/4.3.0/ref/netstandard1.0/Microsoft.CSharp.dll"
 -r:"/Users/blairvansant/.nuget/packages/Microsoft.VisualBasic/10.1.0/ref/netstandard1.1/Microsoft.VisualBasic.dll"
 -r:"/Users/blairvansant/.nuget/packages/Microsoft.Win32.Primitives/4.3.0/ref/netstandard1.3/Microsoft.Win32.Primitives.dll"
@@ -82,5 +82,8 @@
 -r:"/Users/blairvansant/.nuget/packages/System.Threading.Timer/4.3.0/ref/netstandard1.2/System.Threading.Timer.dll"
 -r:"/Users/blairvansant/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/blairvansant/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll"
-"/Users/blairvansant/workspace/zoolandia/Program.cs"
-"/Users/blairvansant/workspace/zoolandia/Animals/animals.cs"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Program.cs"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Animals.cs"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Cat.cs"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Dog.cs"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Lizard.cs"
