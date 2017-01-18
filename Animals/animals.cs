@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class Animals
+    public class Animals
     {
         public string name { get; set; }
         public string species { get; set; }

@@ -2,11 +2,12 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Animals: Cat
+    public class Cat: Animals
     {
         public Cat()
         {
             var Cat = new Animals();
+        
         }
     }
 }

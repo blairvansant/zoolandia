@@ -1,5 +1,7 @@
 using System;
 
+using Zoolandia.Animals;
+
 namespace Zoolandia.Animals
  {
      public class Program
@@ -22,12 +24,12 @@ namespace Zoolandia.Animals
 
             var MyLizard = new Lizard();
             MyLizard.name = "Rocky";
-            MyLizard.species = "Reptilia";
+            MyLizard.species = "Reptile";
             MyLizard.height = "1 inch";
             MyLizard.weight = "3 oz";
             MyLizard.color = "orange and yellow";
           
-                      Console.WriteLine ($"I have a dog named {MyDog.name} ");
+                Console.WriteLine ($"I have a dog named {MyDog.name} and an {MyLizard.color} leopard gecko named {MyLizard.name}. I used to have a {MyCat.color} cat named {MyCat.name}.");
 
           
           }
