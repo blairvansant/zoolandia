@@ -9,5 +9,10 @@ namespace Zoolandia.Animals
             var Cat = new Animals();
         
         }
+          public override void noise ()
+        {
+            base.noise();
+            Console.WriteLine("meow");
+        }
     }
 }

@@ -9,5 +9,9 @@ namespace Zoolandia.Animals
             var Lizard = new Animals();
         
         }
+          public override void noise ()
+        {
+            Console.WriteLine("no sound");
+        }
     }
 }

@@ -9,5 +9,10 @@ namespace Zoolandia.Animals
           var Dog = new Animals();
         
         }
+         public override void noise ()
+        {
+            base.noise();
+            Console.WriteLine("woof");
+        }
     }
 }
