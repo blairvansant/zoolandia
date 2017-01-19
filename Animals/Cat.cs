@@ -7,10 +7,14 @@ namespace Zoolandia.Animals
         public Cat()
         {
             var Cat = new Animals();
+            this.height = "really_tall";
+            this.name = "Sylvester";
+            this.color = "Purple";
         
         }
           public override void noise ()
         {
+
             base.noise();
             Console.WriteLine("meow");
         }

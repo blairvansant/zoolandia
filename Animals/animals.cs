@@ -15,10 +15,6 @@ namespace Zoolandia.Animals
             Console.WriteLine("Hello, World!");
 
         }
-        // public static void sleep ()
-        // {
-        //     Console.WriteLine("Animal is now sleeping");
-        // }
         
     }
 }

@@ -6,7 +6,9 @@ namespace Zoolandia.Animals
     {
         public Lizard()
         {
-            var Lizard = new Animals();
+        var Lizard = new Animals();
+        this.name = "BIGLIZARD";
+        this.color = "rainbow";
         
         }
           public override void noise ()
