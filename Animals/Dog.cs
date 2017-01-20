@@ -7,15 +7,19 @@ namespace Zoolandia.Animals
         public Dog()
         {
           var Dog = new Animals();
-          this.name = "ourDog";
-          this.color = "rainbow";
-
+          this.Name = "our dog";
         
         }
-         public override void noise ()
+         public override void Noise ()
         {
-            base.noise();
+            base.Noise();
             Console.WriteLine("woof");
         }
+          public Dog (string name, int weight)
+            {
+              this.Name = name;
+              this.Weight = weight;
+            }
+
     }
 }

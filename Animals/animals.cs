@@ -4,17 +4,23 @@ namespace Zoolandia.Animals
 {
     public class Animals
     {
-        public string name { get; set; }
-        public string species { get; set; }
-        public string height { get; set; }
-        public string weight { get; set;}
-        public string color { get; set;}
+        public string Name { get; set; }
+        public string Species { get; set; }
+        public string Height { get; set; }
+        public int Weight { get; set;}
+        public string Color { get; set;}
 
-        public virtual void noise ()
+        public virtual void Noise ()
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Zoolandia");
 
         }
+        public virtual void Food ()
+        {
+            Console.WriteLine("feed me");
+        }
         
+        
+
     }
 }
