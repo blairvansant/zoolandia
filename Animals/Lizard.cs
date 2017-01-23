@@ -9,18 +9,17 @@ namespace Zoolandia.Animals
         var Lizard = new Animals();
         this.Name = "BIGLIZARD";
         this.Color = "rainbow";
-        
         }
-        public override void Noise ()
-        {
-            base.Noise();
-            Console.WriteLine("no sound");
-        }
-        public Lizard (string name, int weight)
-            {
-            this.Name = name;
-            this.Weight = weight;
-            }
+        // }
+        // public  void Noise (string noise)
+        // {
+        //     // base.Noise("no noise");
+        // }
+        // public Lizard (string name, int weight)
+        //     {
+        //     this.Name = name;
+        //     this.Weight = weight;
+        //     }
 
     }
 }

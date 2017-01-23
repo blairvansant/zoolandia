@@ -7,20 +7,21 @@ namespace Zoolandia.Animals
         public Cat()
         {
             var Cat = new Animals();
-            this.Height = "really_tall";
+            this.Height = 89;
             this.Name = "Sylvester";
             this.Color = "Purple";
         }
-        public override void Noise ()
-        {
-            base.Noise();
-            Console.WriteLine("meow");
-        }
-        public Cat (string name, int weight)
-            {
-            this.Name = name;
-            this.Weight = weight;
-            }
+
+        // public  void Noise (string noise)
+        // {    
+        // //  base.Noise("the cat purrs");
+
+        // }
+        // public Cat (string name, int weight)
+        //     {
+        //     this.Name = name;
+        //     this.Weight = weight;
+        //     }
 
     }
 }

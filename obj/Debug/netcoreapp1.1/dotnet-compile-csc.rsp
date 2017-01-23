@@ -83,7 +83,7 @@
 -r:"/Users/blairvansant/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/blairvansant/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll"
 "/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Program.cs"
-"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Animals.cs"
+"/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/animals.cs"
 "/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Cat.cs"
 "/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Dog.cs"
 "/Users/blairvansant/workspace/BACKEND/csharp/zoolandia/Animals/Frogs.cs"

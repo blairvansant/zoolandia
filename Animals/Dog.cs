@@ -6,20 +6,25 @@ namespace Zoolandia.Animals
     {
         public Dog()
         {
-          var Dog = new Animals();
-          this.Name = "our dog";
-        
+          this.Name = "new dog";        
         }
-         public override void Noise ()
+        public Dog(string Name)
+         {
+          base.Name = Name;
+        }
+        public Dog(int Height)
         {
-            base.Noise();
-            Console.WriteLine("woof");
+          this.Height = Height;
         }
-          public Dog (string name, int weight)
-            {
-              this.Name = name;
-              this.Weight = weight;
-            }
+        public Dog(string Name, int Height)
+        {
+          this.Name = Name;
+          this.Height = Height;
+        }
+         public  override void Food ()
+        {
+            Console.WriteLine("Yes please!!!");
+        }
 
     }
 }
