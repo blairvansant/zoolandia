@@ -6,20 +6,22 @@ namespace Zoolandia.Animals
     {
         public Lizard()
         {
-        var Lizard = new Animals();
-        this.Name = "BIGLIZARD";
-        this.Color = "rainbow";
+            this.Name = "Charmander";
         }
-        // }
-        // public  void Noise (string noise)
-        // {
-        //     // base.Noise("no noise");
-        // }
-        // public Lizard (string name, int weight)
-        //     {
-        //     this.Name = name;
-        //     this.Weight = weight;
-        //     }
+        public Lizard(string Name)
+        {
+            base.Name = Name;
+        }
+        public Lizard(int Height)
+        {
+            this.Height = Height;
+        }
+        public Lizard(string Species, int Height)
+        {
+            this.Species = Species;
+            this.Height = Height;
+        }
+       
 
     }
 }

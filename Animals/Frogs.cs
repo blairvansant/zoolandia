@@ -6,34 +6,22 @@ namespace Zoolandia.Animals
     {
         public Frog()
         {
-            this.Height = 99;
-            this.Name = "Kermit";
-            this.Color = "green";
-            this.Weight = "one pound";
-        
+          this.Name = "Bull Frog";        
         }
-        // public void Noise (string noise)
-        // {
-        //     base.Noise("ribbit");
-        // }
-        // public override void Food ()
-        // {
-        //     base.Food();
-        //     Console.WriteLine("flies");
-        // }
-        // public Frog (string species)
-        // {
-        //     this.Species = species;
-        // }
-        //  public Frog (string name, int weight)
-        //     {
-        //       this.Name = name;
-        //       this.Weight = weight;
-        //     }
-        //  public Frog (int height)
-        //  {
-        //      this.Height = height;
-        //  }
+        public Frog(string Name)
+         {
+          base.Name = Name;
+        }
+        public Frog(int Height)
+        {
+          this.Height = Height;
+        }
+        public Frog(string Name, int Height)
+        {
+          this.Name = Name;
+          this.Height = Height;
+        }
+ 
 
     }
 }

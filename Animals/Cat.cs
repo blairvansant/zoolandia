@@ -4,24 +4,23 @@ namespace Zoolandia.Animals
 {
     public class Cat: Animals
     {
-        public Cat()
+         public Cat()
         {
-            var Cat = new Animals();
-            this.Height = 89;
-            this.Name = "Sylvester";
-            this.Color = "Purple";
+          this.Name = "Garfield";        
         }
-
-        // public  void Noise (string noise)
-        // {    
-        // //  base.Noise("the cat purrs");
-
-        // }
-        // public Cat (string name, int weight)
-        //     {
-        //     this.Name = name;
-        //     this.Weight = weight;
-        //     }
+        public Cat(string Name)
+         {
+          base.Name = Name;
+        }
+        public Cat(int Height)
+        {
+          this.Height = Height;
+        }
+        public Cat(string Name, int Height)
+        {
+          this.Name = Name;
+          this.Height = Height;
+        }
 
     }
 }

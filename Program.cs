@@ -29,51 +29,57 @@ namespace Zoolandia
             Console.WriteLine(Painted_Dog.Sound);
 
 
-
-            // var MyCat = new Cat();
-            // MyCat.Name = "Sam";
-            // MyCat.Species = "Feline";
-            // MyCat.Height = 43;
-            // MyCat.Weight = 679;
-            // MyCat.Color = "black";
-            // MyCat.Noise();
-            // Cat Sylvester = new Cat();
-            // // Console.WriteLine(Sylvester.Height);
-            // Console.WriteLine(Sylvester.Color);
-            // Console.WriteLine(Sylvester.Name);
-
-            // var MyLizard = new Lizard();
-            // MyLizard.Name = "Rocky";
-            // MyLizard.Species = "Reptile";
-            // MyLizard.Height = 22;
-            // MyLizard.Weight = 3;
-            // MyLizard.Color = "orange and yellow";
-            // Lizard BIGLIZARD = new Lizard();
-            // Console.WriteLine(BIGLIZARD.Name);
-            // Console.WriteLine(BIGLIZARD.Color);
-
-            // var MyFrog = new Frog();
-            // MyFrog.Name = "Chester";
-            // MyFrog.Species = "Amphibian";
-            // MyFrog.Height = 88;
-            // MyFrog.Weight = 202;
-            // MyFrog.Color = "brown";
-            // MyFrog.Food();
-            // MyFrog.Noise(); 
-            // Frog Freddy = new Frog();
-            // Console.WriteLine(Freddy.Name);
-            // Console.WriteLine(Freddy.Color);
-            // Console.WriteLine(MyFrog.Name);
-            // Console.WriteLine(Freddy.Weight);
-            // var BigFrog = new Frog("george", 25);
-            // Console.WriteLine(BigFrog.Weight);
-            // Console.WriteLine(BigFrog.Name);
-            // Console.WriteLine(BigFrog.Species);
+            var MyCat = new Cat();
+            MyCat.Name = "Sam";
+            MyCat.Species = "Feline";
+            MyCat.Height = 43;
+            MyCat.Weight = "great";
+            MyCat.Color = "black";
+            Cat Sylvester = new Cat();
+            Console.WriteLine(Sylvester.Height);
+            Console.WriteLine(Sylvester.Color);
+            Console.WriteLine(Sylvester.Name);
 
 
-            
-          
-                // Console.WriteLine ($"I have a dog named {MyDog.Name} and an {MyLizard.Color} leopard gecko named {MyLizard.Name}. I used to have a {MyCat.Color} cat named {MyCat.Name}.");
+            var MyLizard = new Lizard();
+            MyLizard.Name = "Rocky";
+            MyLizard.Species = "Reptile";
+            MyLizard.Height = 09;
+            MyLizard.Weight = "2 0z";
+            MyLizard.Color = "orange and yellow";
+            MyLizard.Sound = "None";
+
+            Console.WriteLine($"Our Lizard is named {MyLizard.Name} and he weighs {MyLizard.Weight}.");
+            MyLizard.Food();
+            Console.WriteLine(MyLizard.Name);
+            Console.WriteLine(MyLizard.Height);
+
+            Lizard Komodo = new Lizard("Komodo");
+            Console.WriteLine(Komodo.Name);
+            Lizard Chameleon = new Lizard(34);  
+            Console.WriteLine(Chameleon.Height);
+            Lizard Anole = new Lizard ("shutup");
+            Console.WriteLine(Anole.Sound);
+         
+
+            var MyFrog = new Frog();
+            MyFrog.Name = "Kermit";
+            MyFrog.Species = "Amphibian";
+            MyFrog.Height = 88;
+            MyFrog.Weight = "FAT";
+            MyFrog.Color = "brown";
+            MyFrog.Food();
+
+            Console.WriteLine($"Our Frog is named {MyFrog.Name} and he weighs {MyFrog.Weight}.");
+            Console.WriteLine(MyFrog.Name);
+            Console.WriteLine(MyFrog.Height);
+
+            Frog Toad = new Frog("fast frog");
+            Console.WriteLine(Toad.Name);
+            Frog Tadpole = new Frog("Green");
+            Console.WriteLine(Tadpole.Color);
+            Frog MrKermit = new Frog("Frail");
+            Console.WriteLine(MrKermit.Weight);
           
           }
 
