@@ -36,9 +36,9 @@ namespace Zoolandia
             MyCat.Weight = "great";
             MyCat.Color = "black";
             Cat Sylvester = new Cat();
-            Console.WriteLine(Sylvester.Height);
-            Console.WriteLine(Sylvester.Color);
-            Console.WriteLine(Sylvester.Name);
+            // Console.WriteLine(Sylvester.Height);
+            // Console.WriteLine(Sylvester.Color);
+            // Console.WriteLine(Sylvester.Name);
 
 
             var MyLizard = new Lizard();
@@ -49,10 +49,10 @@ namespace Zoolandia
             MyLizard.Color = "orange and yellow";
             MyLizard.Sound = "None";
 
-            Console.WriteLine($"Our Lizard is named {MyLizard.Name} and he weighs {MyLizard.Weight}.");
-            MyLizard.Food();
-            Console.WriteLine(MyLizard.Name);
-            Console.WriteLine(MyLizard.Height);
+            // Console.WriteLine($"Our Lizard is named {MyLizard.Name} and he weighs {MyLizard.Weight}.");
+            // MyLizard.Food();
+            // Console.WriteLine(MyLizard.Name);
+            // Console.WriteLine(MyLizard.Height);
 
             Lizard Komodo = new Lizard("Komodo");
             Console.WriteLine(Komodo.Name);
@@ -70,9 +70,9 @@ namespace Zoolandia
             MyFrog.Color = "brown";
             MyFrog.Food();
 
-            Console.WriteLine($"Our Frog is named {MyFrog.Name} and he weighs {MyFrog.Weight}.");
-            Console.WriteLine(MyFrog.Name);
-            Console.WriteLine(MyFrog.Height);
+            // Console.WriteLine($"Our Frog is named {MyFrog.Name} and he weighs {MyFrog.Weight}.");
+            // Console.WriteLine(MyFrog.Name);
+            // Console.WriteLine(MyFrog.Height);
 
             Frog Toad = new Frog("fast frog");
             Console.WriteLine(Toad.Name);
@@ -80,6 +80,9 @@ namespace Zoolandia
             Console.WriteLine(Tadpole.Color);
             Frog MrKermit = new Frog("Frail");
             Console.WriteLine(MrKermit.Weight);
+
+            Elephant WhatFood = new Elephant();
+            WhatFood.Food();
           
           }
 
