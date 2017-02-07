@@ -82,11 +82,37 @@ namespace Zoolandia
             Console.WriteLine(MrKermit.Weight);
 
             // zoo 
+
+            // Herbivore
             Elephant elephant = new Elephant();
             elephant.AboutDiet();
+            elephant.Food();
      
+            // Carnivore
             Hawk hawk = new Hawk();
             hawk.AboutDiet();
+            hawk.Food();
+
+            // Herbivore
+            Tortoise tortoise = new Tortoise();
+            tortoise.AboutDiet();
+            tortoise.Food();
+
+            // Herbivore
+            Kudu kudu = new Kudu();
+            kudu.AboutDiet();
+            kudu.Food();
+        
+
+            // Carnivore
+            Tiger tiger = new Tiger();
+            tiger.AboutDiet();
+            tiger.Food();
+
+            // Herbivore
+            Kangaroo kangaroo = new Kangaroo();
+            kangaroo.AboutDiet();
+            kangaroo.Food();
           }
 
 

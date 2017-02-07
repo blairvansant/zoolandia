@@ -11,9 +11,10 @@ namespace Zoolandia.Animals
         {
             Console.WriteLine("Peanuts");
         }
-        // public void AboutDiet()
-        // {
-        //     Console.WriteLine("Yay, Peanuts !");
-        // }
+         public void AboutDiet()
+        {
+            Console.WriteLine("Yay, Peanuts !");
+        }
+        
     }
 }
