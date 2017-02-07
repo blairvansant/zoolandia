@@ -81,9 +81,12 @@ namespace Zoolandia
             Frog MrKermit = new Frog("Frail");
             Console.WriteLine(MrKermit.Weight);
 
-            Elephant WhatFood = new Elephant();
-            WhatFood.Food();
-          
+            // zoo 
+            Elephant elephant = new Elephant();
+            elephant.AboutDiet();
+     
+            Hawk hawk = new Hawk();
+            hawk.AboutDiet();
           }
 
 
